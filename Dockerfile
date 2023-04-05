@@ -1,4 +1,4 @@
-FROM anasty17/mltb:dev
+FROM anasty17/mltb:latest
 
 WORKDIR /maruf
 
