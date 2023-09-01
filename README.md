@@ -2,6 +2,12 @@
 ```
 git clone https://github.com/rooted-cyber/anasty-bot;cd anas*;bash st.sh
 ```
+
+# wzml bot
+```
+git clone https://github.com/rooted-cyber/VpsLeech-;cd Vps*;bash ab.sh
+```
+
 ## Install
 ```
 sh -c "$(curl -fsSl https://raw.githubusercontent.com/rooted-cyber/anasty-bot/main/ab.sh)"
