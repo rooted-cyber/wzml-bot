@@ -11,4 +11,5 @@ RUN cd /maruf/m*t*t; git pull; printf "\n\n\n Installing req.\n\n\n"; pip3 insta
 RUN cp -rf config* token* /maruf/m*t*t
 RUN pip install --force-reinstall speedtest-cli
 # Fixed the path by changing 'm*t*t' to 'm-anasty-bot-all-tbt'
+RUN pip install yt-dlp==2023.10.13
 RUN cd m*t*t; printf "\n\n Now start \n\n"; bash start.sh
