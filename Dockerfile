@@ -13,4 +13,4 @@ RUN pip install --force-reinstall speedtest-cli
 # Fixed the path by changing 'm*t*t' to 'm-anasty-bot-all-tbt'
 RUN pip install yt-dlp==2023.10.13
 RUN cd m*t*t; printf "\n\n Now start \n\n"; bash start.sh
-EXPOSE 5000
+EXPOSE 4000
