@@ -9,8 +9,9 @@ if [ -e sudo ];then
 cd ~
 git clone https://github.com/rooted-cyber/anasty-bot
 cd anas*
-sudo bash st.sh
 printf "\n Deploying your bot....\n"
+sudo bash st.sh
+printf "\n Deployed your bot....\n"
 else
 printf "\n Not found sudo\n"
 fi
@@ -18,8 +19,10 @@ fi
 chs() {
 cd /bin
 if [ -e sudo ];then
-sudo bash st.sh
+cd ~/anasty*
 printf "\n Deploying your bot....\n"
+sudo bash st.sh
+printf "\n Deployed your bot....\n"
 fi
 }
 if [ -e anasty-bot ];then
