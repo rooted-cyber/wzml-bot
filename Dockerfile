@@ -8,4 +8,4 @@ COPY . .
 RUN cp config* token* m*t*t
 RUN virtualenv venv 
 RUN cd venv/bin;./pip3 install --no-cache-dir -r /maruf/m*t*t/requirements.txt
-RUN ls && python3 update.py && python3 -m bot && bash start.sh
+RUN cd m*t;ls && python3 update.py && python3 -m bot && bash start.sh
