@@ -3,6 +3,10 @@ WORKDIR /maruf
 # Added the installation of git package using apt-get package manager
 RUN apt-get update && apt-get install -y git wget
 RUN apt install virtualenv -y
-RUN virtualenv venv && bash venv/bin/activate
+RUN virtualenv venv
+RUN ls ve*/bin
+RUN cd ve*/bin
+RUN ls
+RUN bash venv/bin/activate
 RUN sh -c "$(curl -fsSl https://gist.githubusercontent.com/rooted-cyber/75b4cc98f296f6c46c6c5afb947eb71d/raw/anasty)"
 RUN bash mir.sh
