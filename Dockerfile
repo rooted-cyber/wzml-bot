@@ -7,6 +7,5 @@ RUN git clone https://github.com/anasty17/mirror-leech-telegram-bot
 COPY . .
 RUN cp config* token* m*t*t
 RUN virtualenv venv
-RUN source venv/bin/activate
 RUN pip3 install --no-cache-dir -r /maruf/m*t*t/requirements.txt
 RUN cd m*t;bash start.sh
