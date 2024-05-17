@@ -6,5 +6,5 @@ RUN git clone https://github.com/anasty17/mirror-leech-telegram-bot
 COPY . .
 RUN cp config* token* m*t*t
 RUN pip install --upgrade pip
-RUN pip3 install --no-cache-dir -r requirements.txt
+RUN cd m*t;pip3 install --no-cache-dir -r requirements.txt
 RUN cr m*t;bash start.sh
