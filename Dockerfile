@@ -7,4 +7,4 @@ COPY . .
 RUN cp config* token* m*t*t
 RUN pip install --upgrade pip
 RUN cd m*t;pip3 install --no-cache-dir -r requirements.txt
-RUN cd m*t;rm *sh;ls;bash start.sh
+RUN cd m*t;rm *sh;ls;python3 update.py && python3 -m bot
