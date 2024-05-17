@@ -1,4 +1,4 @@
-FROM anasty17/mltb:latest
+FROM theteamultroid/ultroid:main
 WORKDIR /maruf
 RUN apt update
 RUN apt upgrade -y
