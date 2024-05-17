@@ -7,4 +7,4 @@ COPY . .
 RUN cp config* token* WZ*
 RUN pip install --upgrade pip
 RUN cd WZ*;pip3 install --no-cache-dir -r requirements.txt
-RUN cd WZ*;python3 update.py && python3 -m bot
+RUN cd WZ*;pip3 install g4f;python3 update.py && python3 -m bot
