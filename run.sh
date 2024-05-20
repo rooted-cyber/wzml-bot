@@ -1,7 +1,9 @@
 ru() {
 sudo apt update && sudo apt upgrade -y
 sudo apt install docker.io wget -y
-wget https://github.com/rooted-cyber/anasty-bot/raw/main/Dockerfile
+clear
+ls
+wget https://github.com/rooted-cyber/anasty-bot/raw/main/Dockerfile && ls
 sudo docker build . --rm --force-rm --compress --pull --file Dockerfile -t ultroid
 }
 cd /bin
