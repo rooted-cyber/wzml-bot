@@ -2,6 +2,8 @@ cd /bin
 if [ -e sudo ];then
 sudo apt update && sudo apt upgrade -y
 sudo apt install git -y
+sudo rm -rf a
+clear
 git clone https://github.com/rooted-cyber/anasty-bot a
 sudo chmod -R 777 a
 cd a
