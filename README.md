@@ -1,21 +1,6 @@
-# anasty-bot
+## running wzml
 ```
-git clone https://github.com/rooted-cyber/anasty-bot;cd anas*;bash st.sh
-```
-
-# wzml bot
-```
-git clone https://github.com/rooted-cyber/VpsLeech-;cd Vps*;bash ab.sh
-```
-
-## Install
-```
-sh -c "$(curl -fsSl https://raw.githubusercontent.com/rooted-cyber/anasty-bot/main/ab.sh)"
-```
-
-## running
-```
-sh -c "$(curl -fsSl https://raw.githubusercontent.com/rooted-cyber/anasty-bot/main/run.sh)"
+curl -L https://gist.githubusercontent.com/rooted-cyber/a92d6124fc15f884903ab03206aae2f4/raw/d41ca3a3e770ed84f4f022ac34ed472da72a885c/wzml | bash
 ```
 
 ## Run in heroku
