@@ -1,0 +1,41 @@
+DOWNLOAD_DIR = "/usr/src/app/downloads/"    # Require restart after changing it while bot running
+AUTHORIZED_CHATS = "-1002206248347 -1001884618152 -1002083928316"                       # Require restart after changing it while bot running
+STATUS_LIMIT = "10"
+DEFAULT_UPLOAD = "gd"
+STATUS_UPDATE_INTERVAL = "10"
+INCOMPLETE_TASK_NOTIFIER = "False"
+USE_SERVICE_ACCOUNTS = "False"
+# GDrive Tools
+GDRIVE_ID = "1P2tR0vm3htIH69X0cOxDBvxIgCRDKPDR"
+IS_TEAM_DRIVE = "False"
+STOP_DUPLICATE = "False"
+INDEX_URL = "https://mbot.rootedcyber.workers.dev/0:"
+# Rclone
+UPSTREAM_REPO = "https://github.com/my-fork-repo/edited-WZML-X"
+UPSTREAM_BRANCH = "master"
+AS_DOCUMENT = "False"
+SOURCE_LINK = "True"
+BOT_PM = "True"
+
+MEDIA_GROUP="True"
+LEECH_LOG_ID = "-1002233071834"
+MIRROR_LOG_ID = "-1002233071834"
+LINKS_LOG_ID = "-1002233071834"
+SUDO_USERS = "6246819990"
+SEARCH_PLUGINS = '["https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/piratebay.py",
+                   "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/limetorrents.py",
+                   "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/torlock.py",
+                   "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/torrentscsv.py",
+                   "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/eztv.py",
+                   "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/torrentproject.py",
+                   "https://raw.githubusercontent.com/MaurizioRicci/qBittorrent_search_engines/master/kickass_torrent.py",
+                   "https://raw.githubusercontent.com/MaurizioRicci/qBittorrent_search_engines/master/yts_am.py",
+                   "https://raw.githubusercontent.com/MadeOfMagicAndWires/qBit-plugins/master/engines/linuxtracker.py",
+                   "https://raw.githubusercontent.com/MadeOfMagicAndWires/qBit-plugins/master/engines/nyaasi.py",
+                   "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/ettv.py",
+                   "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/glotorrents.py",
+                   "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/thepiratebay.py",
+                   "https://raw.githubusercontent.com/v1k45/1337x-qBittorrent-search-plugin/master/leetx.py",
+                   "https://raw.githubusercontent.com/nindogo/qbtSearchScripts/master/magnetdl.py",
+                   "https://raw.githubusercontent.com/msagca/qbittorrent_plugins/main/uniondht.py",
+                   "https://raw.githubusercontent.com/khensolomon/leyts/master/yts.py"]'
